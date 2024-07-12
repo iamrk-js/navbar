@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+[class^="col-"] {
+  padding: 0 15px;
+  float: left;
+  border: 2px solid red;
+}
+
+.col-3 {
+  width: calc((100% * 3) / 12);
+}
+
+.col-9 {
+  width: calc((100% * 9) / 12);
+}
+
+
+.header{
+  background-color: #000000;
+  color: #ffffff;
+}
